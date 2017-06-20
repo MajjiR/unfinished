@@ -1,0 +1,101 @@
+@media screen and (orientation:portrait)
+{
+  html
+   {
+      background-image: url("landscape.png");
+      background-repeat: repeat;
+   }
+ body{
+     display: none;
+ }
+}
+
+body{
+    background-image: url("studentt.jpg");
+    background-repeat: no-repeat;
+  background-size: 100% 100%;
+    width: 100%;
+}
+nav{
+    display:block;
+    background-color:  white;
+    height:3em;
+     margin-left:2em;
+     margin-right: 2em;
+}
+.bahasa{
+    height: 3em;
+    padding-top: 0.2em;
+}
+p{
+    display: inline;
+   float:right;
+    padding-left: 0.3em;
+    font-family: 'Lato', sans-serif;
+    padding-top: 0.8em;
+    margin-right: 0.5em;
+    color:#004080;
+    font-size: 1em;
+}
+.text{
+    display: inline;
+
+}
+.fa{
+  padding-left: 0.3em;
+    padding-top: 1em;
+    margin-right: 0.5em;
+    color:#004080;
+}
+i{
+    display: inline;
+   float:right;
+    padding-left: 0.5em;
+    padding-top: 1em;
+    margin-right: 0.5em;
+    color:#004080;
+    font-size: 1em
+}
+.fa-search{
+    padding-left: 1em;
+}
+p:hover{
+    color:#3280e5;
+}
+i:hover{
+        color:#3280e5;
+}
+.red{
+    color:#f72222;
+    margin-left: 2.5em;
+    margin-top: 3em;
+}
+h1{
+    font-family:'Montserrat';
+    font-size: 2em;
+}
+.white{
+    color:white;  
+    margin-left: 2.5em;
+}
+.buttonel{
+   background-color:#d8211e;
+   border: none;
+   color:white;
+   padding-top: 0.5em;
+   padding-left: 0.5em;
+   padding-right: 0.5em;
+   padding-bottom: 0.5em;
+   margin-left: 4.8em;
+   margin-top: 1em;
+ font-family: 'Montserrat';
+    transition: margin-left  0.5s ,background-color 1s;
+}
+.buttonel:hover{
+    margin-left: 6em;
+background-color: #445cba;
+  
+}
+secondpart{
+    height: 200px;
+}
